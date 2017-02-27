@@ -1,0 +1,284 @@
+@orange: #ff7200;
+@border:1px solid #d2d2d2;
+.houseDetail {
+  .hotelDetailList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 1.5rem;
+    .hotelDetailItem {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      .icon {
+        margin: 0 auto;
+        margin-bottom: 0.1rem;
+        &.icon1 {
+          background: url("../img/hotelIcon/hotelIcon_houseNum.png") center center no-repeat;
+          background-size: contain;
+          height: 0.46rem;
+          width: 0.36rem;
+        }
+        &.icon2 {
+          background: url("../img/hotelIcon/hotelIcon_area.png") center center no-repeat;
+          background-size: contain;
+          width: 0.40rem;
+          height: 0.40rem;
+        }
+        &.icon3 {
+          background: url("../img/hotelIcon/hotelIcon_peopleNum.png") center center no-repeat;
+          background-size: contain;
+          height: 0.34rem;
+          width: 0.46rem;
+        }
+        &.icon4 {
+          background: url("../img/hotelIcon/hotelIcon_wifi.png") center center no-repeat;
+          background-size: contain;
+          height: 0.34rem;
+          width: 0.46rem;
+        }
+        &.icon5 {
+          background: url("../img/hotelIcon/hotelIcon_bed.png") center center no-repeat;
+          background-size: contain;
+          height: 0.42rem;
+          width: 0.46rem;
+        }
+      }
+      .text {
+        text-align: center;
+        font-size: 0.22rem;
+        line-height: 0.4rem;
+        color: #797979;
+      }
+    }
+  }
+}
+
+.hotelReserve {
+  .chooseDate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 1.4rem;
+    padding: 0 .24rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #797979;
+    border-bottom: 1px solid #ebebeb;
+    .startEndWap {
+      .timeDetail {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        .day {
+          font-size: 0.48rem;
+          color: #ff7200;
+          margin-right: 0.1rem;
+        }
+        .dayDesc {
+          font-size: 0.22rem;
+        }
+      }
+    }
+    .totalTime {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      .separationLine {
+        height: 0.34rem;
+        width: 0;
+        border-left: 1px solid #c8c8c8;
+        margin: 0 auto 0.2rem;
+      }
+    }
+  }
+  .toPayWap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: .18rem .24rem .14rem;
+    color: #797979;
+    .payDesc {
+      .payTitle {
+        font-size: 0.3rem;
+        color: #383838;
+        line-height: 0.48rem;
+      }
+      .payTags {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 0.24rem;
+        line-height: 0.46rem;
+        .tag {
+          margin-right: .2rem;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .payPrice {
+      .noPayDay {
+        font-size: 0.22rem;
+        line-height: 0.28rem;
+        margin-bottom: 0.1rem;
+        text-align: right;
+      }
+      .toPay {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        .payPrice {
+          font-size: 0.36rem;
+          color: #ff7200;
+          margin-right: .18rem;
+          line-height: .4rem;
+        }
+        .payBtn {
+          width: 1.2rem;
+          height: .4rem;
+          line-height: .4rem;
+          text-align: center;
+          background-color: #ff7200;
+          font-size: .22rem;
+          color: #fff;
+          border-radius: .06rem;
+        }
+        &.disabledPay {
+          .payPrice {
+            color: #c8c8c8;
+          }
+          .payBtn {
+            background-color: #c8c8c8;
+          }
+        }
+      }
+    }
+  }
+}
+
+.datePop {
+  display: none;
+  .popMask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+  }
+  .popContent {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+    .popHeader {
+      position: relative;
+      background-color: #fff;
+      .dateHint {
+        padding: .26rem 0;
+        font-size: .3rem;
+        text-align: center;
+        line-height: .38rem;
+      }
+      .dateSure {
+        display: none;
+        position: absolute;
+        top: .3rem;
+        right: .24rem;
+        font-size: .26rem;
+        color: @orange;
+      }
+      .dateWeekNum{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        line-height: .34rem;
+        padding-bottom: .16rem;
+        border-bottom: @border;
+        .dayNum{
+          -webkit-box-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+          text-align: center;
+          &.restDay{
+            color: @orange;
+          }
+        }
+      }
+    }
+    .popBody{
+      max-height: 8rem;
+      overflow: auto;
+      .mouthWrap{
+        width: 100%;
+        text-align: center;
+        background-color: #fff;
+        margin-bottom: .2rem;
+        &:last-child{
+          margin-bottom: 0;
+        }
+        .monthTitle{
+          height: 0.7rem;
+          line-height: .7rem;
+          border-bottom: 1px solid #ebebeb;
+          font-size: .3rem;
+          background-color: #fff;
+        }
+        tr{
+          height: 1.08rem;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          td{
+            -webkit-box-flex:1;
+                -ms-flex:1;
+                    flex:1;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            height: 100%;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            .aligning{
+              margin: 0 auto;
+            }
+            &.roomful{
+              .monthDay,.monthPrice{
+                color: #c9c9c9;
+              }
+            }
+            &.chooseStart,&.chooseEnd{
+              background-color: @orange;
+              border-radius: .06rem;
+              .monthDay,.monthPrice{
+                color: #fff;
+              }
+            }
+            .monthDay{
+              font-size: .26rem;
+            }
+            .monthPrice{
+              font-size: .22rem;
+              color: #ffb464;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "code": 200,
+  "data": [
+    [
+      {
+        "Date": "2017-03-01",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-02",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-03",
+        "Price": 198,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-04",
+        "Price": 198,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-05",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-06",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-07",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-08",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-09",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-10",
+        "Price": 198,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-11",
+        "Price": 198,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-12",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-13",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-14",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-15",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-16",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-17",
+        "Price": 198,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-18",
+        "Price": 198,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-19",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-20",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-21",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-22",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-03-23",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      }
+    ],
+    [
+      {
+        "Date": "2017-04-01",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-04-02",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      },
+      {
+        "Date": "2017-04-03",
+        "Price": 168,
+        "Inventory": 3,
+        "Cancelable": false
+      }
+    ]
+  ]
+}
