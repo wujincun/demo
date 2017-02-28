@@ -31,39 +31,7 @@ var chooseDate = {
                                 firstDayInWeek = firstDay.getDay(),
                                 firstDayInDate = firstDay.getDate();
                             var rows = Math.ceil((monthData.length + firstDayInWeek) / 7);
-
-                            for (var j = 0; j < rows; j++) {
-                                var dayStr = '', date_str, index, dayItem;
-                                for (k = 0; k < 7; k++) {
-                                    var idx = j * 7 + k;
-                                    if (monthData.length < 7) {
-                                        if( j == 0){
-                                            date_str = firstDayInDate - firstDayInWeek + k;
-                                        }else{
-
-                                        }
-                                    } else {
-                                        date_str = idx - firstDayInDate - 1 ;
-                                    }
-                                    //计算日期
-                                    if (date_str < firstDayInDate || date_str >= firstDayInDate + monthData.length) {
-                                        dayStr += '<td>&nbsp</td>'
-                                    } else {
-                                        index = date_str - firstDayInDate;
-                                        dayItem = monthData[index];
-
-                                        dayStr += '<td>' +
-                                            '<div class="aligning">' +
-                                            '<div class="monthDay">' + new Date(dayItem.Date).getDate() + '</div>' +
-                                            '<div class="monthPrice">¥' + dayItem.Price + '</div>' +
-                                            '</div>' +
-                                            '</td>'
-
-                                    }
-                                }
-                                dateStr +=
-                                    '<tr>' + dayStr + '</tr>'
-                            }
+                            
 
                             monthStr +=
                                 '<table class="mouthWrap">' +
